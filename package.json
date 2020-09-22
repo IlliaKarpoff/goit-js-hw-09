@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./src/index.js",
     "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
     "build": "webpack --env.mode production --config ./webpack/config.js",
     "predeploy": "npm run build",
@@ -15,7 +14,7 @@
     "url": "git+https://github.com/IlliaKarpoff/goit-js-hw-10-food-service.git"
   },
   "keywords": [],
-  "author": "iKarpoff <illia.karpoff@gmail.com>",
+  "author": "IlliaKarpoff <illia.karpoff@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
